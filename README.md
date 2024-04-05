@@ -54,17 +54,17 @@ The `config.ini` file serves as the backbone for configuring the Automatic Jira 
 ## JIRA Configuration
 
 - **`[jira]` Section**: Defines the JIRA server details and credentials for API access.
-    - `server`: The base URL of your JIRA instance. Example: `https://support.ccasoftware.com`
-    - `jira_ticket_base_url`: The base URL for accessing individual JIRA tickets. Example: `https://support.ccasoftware.com/browse/`
+    - `server`: The base URL of your JIRA instance. Example: `https://jira.satan.com`
+    - `jira_ticket_base_url`: The base URL for accessing individual JIRA tickets. Example: `https://jira.satan.com/browse/`
     - `username`: Your JIRA username.
     - `password`: Your JIRA password or API token.
 
 ## Email Configuration
 
 - **`[email]` Section**: Sets up the email sending details.
-    - `sender`: The email address from which the reports will be sent. Example: `reports@ccasoftware.com`
-    - `recipient`: The default recipient email address for the reports. Example: `deant@ccasoftware.com.au`
-    - `smtp_server`: The SMTP server used for sending emails. Example: `mail.ccasoftware.com`
+    - `sender`: The email address from which the reports will be sent. Example: `reports@blah.com`
+    - `recipient`: The default recipient email address for the reports. Example: `satan@blah.com`
+    - `smtp_server`: The SMTP server used for sending emails. Example: `mail.blah.com`
     - `smtp_port`: The port used by the SMTP server. Commonly 465 for SSL. Example: `465`
     - `smtp_username`: The username for authenticating with the SMTP server.
     - `smtp_password`: The password for authenticating with the SMTP server.
@@ -73,7 +73,7 @@ The `config.ini` file serves as the backbone for configuring the Automatic Jira 
 
 - **`[assignee_recipients]` Section**: Maps specific JIRA assignees to email addresses, allowing for personalized report distribution.
     - Each entry under this section follows the format `jira_username = email_address`. This allows reports for specific JIRA users (assignees) to be sent to designated email addresses. For example:
-        - `dean = deant@ccasoftware.com.au`
-        - `karl = karl@ccasoftware.com.au`
+        - `dean = blah@blah.com`
+        - `karl = blah@blah.com`
         - `...`
 ---
