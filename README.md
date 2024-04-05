@@ -73,7 +73,7 @@ The `config.ini` file serves as the backbone for configuring the Automatic Jira 
 
 - **`[assignee_recipients]` Section**: Maps specific JIRA assignees to email addresses, allowing for personalized report distribution.
     - Each entry under this section follows the format `jira_username = email_address`. This allows reports for specific JIRA users (assignees) to be sent to designated email addresses. For example:
-        - `dean = deant@ccasoftware.com.au`
-        - `karl = karl@ccasoftware.com.au`
+        - `dean = blah@blah.com`
+        - `karl = blah@blah.com`
         - `...`
 ---
