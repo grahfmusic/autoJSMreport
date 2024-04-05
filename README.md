@@ -1,5 +1,6 @@
 # Automatic Jira Report Generation Tool
-<img style="width: 70%; display: block; margin-left: auto; margin-right: auto;" src="http://vilmos.ccasoftware.com.au:3000/CCA/jira-automatic-reports/raw/master/imgs/readme_img1.png" alt="Report Output"></img>
+
+![image](https://github.com/grahfmusic/autoJSMreport/assets/106035556/5469722d-c216-4dca-9450-2f328874470b)
 
 ## Introduction
 
