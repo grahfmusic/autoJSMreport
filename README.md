@@ -1,5 +1,5 @@
 # Automatic Jira Report Generation Tool
-![image](https://github.com/automatic-jira-report-generation-tool/automatic-jira-report-generation-tool.github.io/raw/master/images/jira-logo.png)
+![image](https://github.com/grahfmusic/autoJSMreport/assets/106035556/5469722d-c216-4dca-9450-2f328874470b)
 
 ## Introduction
 The Automatic Jira Report Generation Tool is a comprehensive Python script designed to automate the process of fetching Jira issues and compiling them into an organised report that's then sent via email. This tool simplifies the monitoring and management of Jira tickets by automatically generating and distributing reports, making it an invaluable resource for teams and individuals managing projects within Jira.
