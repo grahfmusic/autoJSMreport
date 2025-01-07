@@ -54,26 +54,26 @@ The `config.ini` file serves as the backbone for configuring the Automatic Jira 
 
 ## Jira Configuration
 
-* `[jira]`: Defines the Jira server details and credentials for API access.
-	+ `server`: The base URL of your Jira instance. Example: `https://jira.satan.com`
-	+ `jira_ticket_base_url`: The base URL for accessing individual Jira tickets. Example: `https://jira.satan.com/browse/`
-	+ `username`: Your Jira username.
-	+ `password`: Your Jira password or API token.
+-`[jira]`: Defines the Jira server details and credentials for API access.
+- `server`: The base URL of your Jira instance. Example: `https://jira.satan.com`
+- `jira_ticket_base_url`: The base URL for accessing individual Jira tickets. Example: `https://jira.satan.com/browse/`
+- `username`: Your Jira username.
+- `password`: Your Jira password or API token.
 
 ## Email Configuration
 
-* `[email]`: Sets up the email sending details.
-	+ `sender`: The email address from which the reports will be sent. Example: `reports@blah.com`
-	+ `recipient`: The default recipient email address for the reports. Example: `satan@blah.com`
-	+ `smtp_server`: The SMTP server used for sending emails. Example: `mail.blah.com`
-	+ `smtp_port`: The port used by the SMTP server. Commonly 465 for SSL. Example: `465`
-	+ `smtp_username`: The username for authenticating with the SMTP server.
-	+ `smtp_password`: The password for authenticating with the SMTP server.
+- `[email]`: Sets up the email sending details.
+- `sender`: The email address from which the reports will be sent. Example: `reports@blah.com`
+- `recipient`: The default recipient email address for the reports. Example: `satan@blah.com`
+- `smtp_server`: The SMTP server used for sending emails. Example: `mail.blah.com`
+- `smtp_port`: The port used by the SMTP server. Commonly 465 for SSL. Example: `465`
+- `smtp_username`: The username for authenticating with the SMTP server.
+- `smtp_password`: The password for authenticating with the SMTP server.
 
 ## Assignee Recipients Configuration
 
-* `[assignee_recipients]`: Maps specific Jira assignees to email addresses, allowing for personalised report distribution.
-	+ Each entry under this section follows the format `jira_username = email_address`. This allows reports for specific Jira users (assignees) to be sent to designated email addresses. For example:
+- `[assignee_recipients]`: Maps specific Jira assignees to email addresses, allowing for personalised report distribution.
+- Each entry under this section follows the format `jira_username = email_address`. This allows reports for specific Jira users (assignees) to be sent to designated email addresses. For example:
 
 ```
 dean = blah@blah.com
